@@ -1,0 +1,31 @@
+@keyframes changecolor {
+    from {
+        color:#57265b;
+    }
+    50% {
+        color:#a84ab0;
+    }
+  	to {
+        color:#57265b;
+    }
+}
+  
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#money {
+  color:#57265b;
+  animation: changecolor 3s infinite;
+}
+#title {
+	color:#fff;
+}
+p {
+  display: inline;
+  font-size: 52px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: Roboto, sans-serif;
+  text-shadow: #000 0 0 10px;
+}
